@@ -1,31 +1,33 @@
 # agentic-ai
 
-Agentic AI — a project that implements agent-based or agentic workflows. The repository appears to be primarily Python with some TypeScript/JavaScript components.
+Agentic AI — an experimental project implementing agent-based/autonomous agent workflows. The repository is primarily Python with some TypeScript/JavaScript components.
 
-## Description
+## Key Features
 
-This project contains Python code for agentic or autonomous agent experiments and supporting TypeScript/Javascript code (likely for web UI or tooling). Review the repository to identify the entry points and scripts.
+- Agent orchestration and task automation examples
+- Utilities for running and evaluating agent behaviors
+- (Optional) Web UI or tooling components in TypeScript
 
-## Tech stack
+## Tech Stack
 
-- Python (primary)
-- TypeScript / JavaScript (supporting code)
+- Python
+- (Optional) TypeScript/JavaScript
 
 ## Prerequisites
 
 - Python 3.8+
-- Optional: Node.js and npm if you plan to run the TypeScript parts
+- Node.js and npm (only if frontend/tooling parts are used)
 
-## Setup (Python)
-
-1. Clone the repository:
+## Cloning the repository
 
 ```bash
 git clone https://github.com/VishaleeshwarR/agentic-ai.git
 cd agentic-ai
 ```
 
-2. Create and activate a virtual environment:
+## Setup (Python)
+
+1. Create and activate a virtual environment:
 
 ```bash
 python -m venv .venv
@@ -33,13 +35,13 @@ source .venv/bin/activate  # macOS / Linux
 .venv\Scripts\activate     # Windows
 ```
 
-3. Install Python dependencies (if a requirements file exists):
+2. Install dependencies (if `requirements.txt` or `pyproject.toml` exists):
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the main script (replace with the actual entry point):
+3. Run the main script (replace with actual entrypoint):
 
 ```bash
 python main.py
@@ -47,7 +49,7 @@ python main.py
 
 ## Setup (TypeScript / Frontend)
 
-If the repo contains a frontend, install dependencies and run:
+If there is a frontend component:
 
 ```bash
 npm install
